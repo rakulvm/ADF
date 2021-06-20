@@ -1,4 +1,4 @@
-                                                          ADF Python Day - 1
+                                                    #ADF Python Day - 1
 1. Read a file and write only unique words in another file :-**
    - I intially declared a set. Then I read file "rakul.txt" and stored it in variable "f".
    - Then I iterated every line and split and changed every special characters as space by using regex for each word.
