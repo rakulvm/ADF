@@ -1,0 +1,7 @@
+name=input("Enter the name")
+age=int(input("Enter the age"))
+gender=input("Enter the gender")
+salary=int(input("Enter the salary"))
+state=input("Enter the state")
+city=input("Enter the city")
+print("Name:%s Age:%d Gender:%s Salary:%d State:%s City:%s"%(name, age, gender, salary, state, city))
