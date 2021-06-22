@@ -1,0 +1,29 @@
+# To words:
+=>[2]
+
+# Ing words:
+=>[3]
+
+# Maximum occured word: 
+=>riding
+
+# Palindrome words:
+=>['TooT']
+
+# Key value pairs:
+=>[(0, 'Together'), (1, 'we'), (2, 'gonna'), (3, 'go'), (4, 'riding'), (5, 'and'), (6, 'writing'), (7, 'TooT'), (8, 'riding')]
+
+# Splitting vowels of each word:
+=>['T g th r', 'w ', 'g nn ', 'g ', 'r d ng', ' nd', 'wr t ng', 'T  T', 'r d ng']
+
+# Use - in place of blank space:
+=>['Together-we-gonna-go-riding-and-writing\n', 'TooT-riding\n']
+
+# Use semicolon instead of newline:
+=>Together we gonna go riding and writing;TooT riding;
+
+Capitalized every 3rd word: 
+=>['ToGetHer we goNna go riDinG aNd WriTinG\n', 'ToOT RidIng\n']
+
+Capitalized every 5th word: 
+=>['Together', 'we', 'gonna', 'go', 'RIDING', 'and', 'writing', '']
