@@ -169,7 +169,23 @@ class Child(Parent):
         output1=self.writedata(str(result))
         output2=self.writedata(str(list(enumerate(result))))
 
-input=int(input("Enter the option to display:"))
+option=int(input("Enter the option to display:"))
 obj=Child()
-def switch():
-    if option==1:
+if option==1:
+    obj.ToPrefix()
+elif option==2:
+    obj.IngSuffix()
+elif option==3:
+    obj.palindromeFunc()
+elif option==4:
+    obj.uniqueList()
+elif option==5:
+    obj.maxi()
+elif option==6:
+    obj.Caps5()
+elif option==7:
+    obj.caps3()
+elif option==8:
+    obj.vowels()
+elif option==9:
+    obj.hyphen()

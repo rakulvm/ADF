@@ -1,1 +1,1 @@
-['T g th r', 'w ', 'g nn ', 'g ', 'r d ng', ' nd', 'wr t ng', 'T  T', 'r d ng']
+[(0, 'Together'), (1, 'we'), (2, 'gonna'), (3, 'go'), (4, 'riding'), (5, 'and'), (6, 'writing'), (7, 'TooT'), (8, 'riding')]
