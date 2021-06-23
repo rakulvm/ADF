@@ -8,6 +8,6 @@ print(config.sections())
 
 config.add_section('bank')
 config.set('bank','name','HDFC')
-#
-# with open(file, 'w') as configfile:
-#     config.write(configfile)
+print(config.sections())
+with open(file, 'w') as configfile:
+    config.write(configfile)

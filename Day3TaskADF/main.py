@@ -169,5 +169,7 @@ class Child(Parent):
         output1=self.writedata(str(result))
         output2=self.writedata(str(list(enumerate(result))))
 
+input=int(input("Enter the option to display:"))
 obj=Child()
-obj.vowels()
+def switch():
+    if option==1:
