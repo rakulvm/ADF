@@ -1,0 +1,21 @@
+pytest normal method: 
+
+def method1(a):
+	return a+4
+def test_method():
+	assert method(1)==5
+
+command to run: pytest filename
+
+pytest mark:
+
+def method1(a):
+	return a+4
+
+pytest.mark.markname
+def test_method():
+	assert method(1)==5
+command : pytest -m test_method
+
+pytest running a particular method:
+command: pytest -k methodname -v
