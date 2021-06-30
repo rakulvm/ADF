@@ -1,0 +1,25 @@
+Create virtual env wrapper: 
+pip install virtualenvwrapper-win
+
+create virtual environment: 
+mkvirtualenv test
+
+install django:
+pip install django
+
+create django app:
+pip django-admin startproject projectname
+
+run django app:
+python manage.py runserver
+
+workon envname : (to workwith the env from another cmd/terminal)
+
+upgrade changes happened to DB:
+python manage.py migrate
+
+create superuser:
+python manage.py createsuperuser
+
+make migrations to do new migrations for newly added installed apps:
+python manage.py makemigrations 

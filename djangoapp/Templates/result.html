@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %} Result page {% endblock %}</title>
+</head>
+<body>
+    {% block content %}
+    {% if Valid %}
+    <p>{{Response}}</p>
+    <p>{{Reason}}</p>
+    <a href="/forms">
+      <button>
+      Dismiss
+    </button>
+    </a>
+<!--    <button type="button" name="dismiss" onclick="{% url 'forms' %}">Dismiss</button>-->
+    {% else %}
+    <p>{{Response}}</p>
+    <p>{{Reason}}</p>
+    <a href="/forms">
+      <button>
+      Dismiss
+    </button>
+    </a>
+<!--    <button type="button" name="dismiss" onclick="{% url 'forms' %}">Dismiss</button>-->
+    {% endif %}
+    {% endblock %}
+</body>
+</html>
